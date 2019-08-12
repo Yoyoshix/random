@@ -12,3 +12,8 @@ def circle(radius):
         x = round((1-y**2)**0.5*radius)
         print(" "*(radius-x)+"O"*x*2)
         y -= 1/radius
+
+"""
+Call either funtion with an integer and have fun
+Mind that caracters are displayed as rectangles, that's why the result is not perfect
+"""
